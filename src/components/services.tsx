@@ -1,10 +1,10 @@
 import { services } from "@/data/projects";
 
 const steps = [
-  { step: "01", title: "Discovery", note: "Understand goals, constraints, and existing architecture." },
-  { step: "02", title: "Architecture", note: "Design microservices, APIs, and data models with Clean Architecture." },
-  { step: "03", title: "Development", note: "Build backend services, frontend apps, and real-time integrations." },
-  { step: "04", title: "Delivery", note: "CI/CD pipelines, containerization, monitoring, and handoff." },
+  { step: "01", title: "Discovery", note: "Map clinical workflows, compliance needs, and existing hospital systems." },
+  { step: "02", title: "Architecture", note: "Design FHIR-aligned data models, services, and PHI security boundaries." },
+  { step: "03", title: "Development", note: "Build clinical services, patient-facing apps, and HL7/FHIR integrations." },
+  { step: "04", title: "Delivery", note: "Validation, audit logging, CI/CD pipelines, monitoring, and clinical handoff." },
 ];
 
 export function Services() {

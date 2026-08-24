@@ -9,19 +9,19 @@ export function Hero() {
           <div className="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr]">
             <div>
               <p className="inline-flex items-center gap-2 rounded-full bg-secondary px-3 py-1.5 text-xs font-semibold tracking-[0.18em] text-muted-foreground uppercase">
-                Available for full-stack projects · Q3 2026
+                Available for healthcare software projects · Q3 2026
               </p>
 
               <h1 className="mt-6 font-display text-5xl leading-[0.95] font-extrabold sm:text-6xl lg:text-7xl">
                 Mostafa Samir
                 <br />
-                <span className="text-brand-orange">Senior Full-Stack Engineer.</span>
+                <span className="text-brand-orange">Healthcare Full-Stack Engineer.</span>
               </h1>
 
               <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-                Building scalable, marketplace-ready solutions with .NET 8 microservices, modern
-                frontend frameworks, and cloud-native DevOps. Specialized in Clean Architecture,
-                DDD, and real-time systems.
+                Building secure, HIPAA-aligned healthcare platforms — EHR systems, HL7/FHIR
+                interoperability, telehealth, and remote patient monitoring — with .NET 8
+                microservices and modern frontend frameworks.
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -56,13 +56,13 @@ export function Hero() {
               <div className="absolute inset-x-10 top-14 bottom-4 rounded-[2.5rem] bg-brand-sky/35" />
               <img
                 src={portrait}
-                alt="Illustrated portrait of Mostafa Samir, a senior full-stack engineer"
+                alt="Illustrated portrait of Mostafa Samir, a healthcare full-stack engineer"
                 width={1024}
                 height={1024}
                 className="relative mx-auto w-full max-w-sm rounded-[2rem] drop-shadow-[0_18px_30px_rgba(0,0,0,0.16)]"
               />
               <p className="relative mt-2 text-center font-display text-sm font-bold">
-                .NET · Angular · React · Next.js · Cloud
+                EHR · FHIR · Telehealth · Cloud
               </p>
             </div>
           </div>

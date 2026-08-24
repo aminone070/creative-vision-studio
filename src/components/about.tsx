@@ -3,13 +3,13 @@ const timeline = [
     period: "Jul 2024 — Present",
     role: "Senior Software Developer",
     place: "WE3DS COMPANY · Tanta, Egypt",
-    note: "Architected scalable .NET 8 microservices with Clean Architecture and DDD. Led multi-tenant transitions, built SignalR telemetry backends for 1,000+ IoT endpoints, and optimized database performance by 300%.",
+    note: "Architected .NET 8 clinical microservices for EHR and telehealth products. Led multi-facility data isolation work, built SignalR backends streaming vitals from 1,000+ patient monitoring devices, and cut chart query times by 300%.",
   },
   {
     period: "Nov 2023 — Jul 2024",
     role: "Full Stack Developer (Freelance)",
     place: "Self-Employed · Cairo, Egypt",
-    note: "Delivered end-to-end web apps with Next.js, React, and .NET Core. Integrated third-party REST APIs for payments, auth, and mapping. Containerized legacy services with Docker.",
+    note: "Delivered patient portals and clinic management apps with Next.js, React, and .NET Core. Integrated HL7 v2 feeds, FHIR APIs, lab results, and appointment scheduling. Containerized legacy hospital services with Docker.",
   },
 ];
 
@@ -18,8 +18,10 @@ const capabilities = [
   "ASP.NET Web API",
   "Microservices",
   "Clean Architecture",
-  "SignalR / gRPC",
-  "DDD",
+  "HL7 FHIR R4",
+  "HL7 v2 / Interop",
+  "SignalR / WebRTC",
+  "HIPAA & GDPR",
   "Angular",
   "React / Next.js",
   "TypeScript",
@@ -39,19 +41,19 @@ export function About() {
             About me
           </p>
           <h2 className="mt-4 font-display text-3xl leading-tight font-extrabold sm:text-4xl">
-            Engineering scalable systems from frontend to cloud.
+            Engineering healthcare software patients and clinicians can trust.
           </h2>
           <div className="mt-6 space-y-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
             <p>
-              I&apos;m Mostafa Samir, a Senior Full-Stack Engineer with 4+ years of experience
-              designing high-performance microservices and modern web architectures. I specialize in
-              .NET 8, ASP.NET Core Web API, Angular, React, and Next.js.
+              I&apos;m Mostafa Samir, a Full-Stack Engineer with 4+ years focused on healthcare
+              technology — electronic health records, clinical workflows, and interoperability. I
+              build with .NET 8, ASP.NET Core Web API, Angular, React, and Next.js.
             </p>
             <p>
-              My work spans enterprise marketplace backends, real-time IoT dashboards, multi-tenant
-              CRM/ERP integrations, and cloud-native DevOps pipelines. I focus on clean code,
-              scalable architecture, and measurable performance gains — including a 300% database
-              throughput optimization on a recent platform.
+              My work spans EHR platforms, HL7/FHIR integration layers, telehealth and remote
+              patient monitoring, and patient-facing portals. Everything is built around PHI
+              security, auditability, and clinical safety — with measurable gains such as a 300%
+              improvement in chart-loading performance.
             </p>
           </div>
 

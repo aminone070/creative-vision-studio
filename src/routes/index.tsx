@@ -10,9 +10,9 @@ import { Services } from "@/components/services";
 import { SiteNav } from "@/components/site-nav";
 import { projects } from "@/data/projects";
 
-const title = "Muh. Yasin — Creative Portfolio 2026";
+const title = "Mostafa Samir — Senior Full-Stack Engineer";
 const description =
-  "Illustration, motion and 2D–3D visual storytelling. Selected key visuals, identity systems and animation work by Muh. Yasin, Yogyakarta.";
+  "Senior Full-Stack Engineer specializing in .NET 8 microservices, Angular, React, Next.js, and cloud-native architectures. Based in Tanta, Egypt. Available for full-stack and microservices projects.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -45,12 +45,12 @@ function Index() {
                     Selected work
                   </p>
                   <h2 className="mt-3 font-display text-4xl font-extrabold sm:text-5xl">
-                    Projects &amp; case slides
+                    Projects &amp; case studies
                   </h2>
                 </div>
                 <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">
-                  Campaign key visuals, identity systems, editorial illustration and motion —
-                  presented slide by slide.
+                  Marketplace engines, real-time IoT dashboards, CRM/ERP sync, and high-performance
+                  web experiences.
                 </p>
               </div>
             </Reveal>

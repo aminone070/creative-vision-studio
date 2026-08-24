@@ -1,39 +1,33 @@
 const timeline = [
   {
-    period: "2023 — Present",
-    role: "Lead Full-Stack Engineer — Healthcare",
-    place: "MediCore Health Systems",
-    note: "Architected a multi-tenant clinic platform serving 12 branches. Led HIPAA compliance, FHIR integrations, and a team of 6 engineers.",
+    period: "Jul 2024 — Present",
+    role: "Senior Software Developer",
+    place: "WE3DS COMPANY · Tanta, Egypt",
+    note: "Architected scalable .NET 8 microservices with Clean Architecture and DDD. Led multi-tenant transitions, built SignalR telemetry backends for 1,000+ IoT endpoints, and optimized database performance by 300%.",
   },
   {
-    period: "2021 — 2023",
-    role: "Senior Full-Stack Developer",
-    place: "VitalLink Telehealth",
-    note: "Built a WebRTC telemedicine product from zero to 50k MAU. Designed end-to-end encryption and real-time vitals streaming.",
-  },
-  {
-    period: "2019 — 2021",
-    role: "Full-Stack Developer",
-    place: "ChartFlow EHR",
-    note: "Delivered EHR modules integrating HL7/FHIR with 30+ hospital systems. Cut clinician charting time by 30%.",
-  },
-  {
-    period: "2017 — 2019",
-    role: "Software Engineer",
-    place: "Independent Clinics Network",
-    note: "Developed appointment booking, billing, and patient portal modules for a network of 40+ private clinics.",
+    period: "Nov 2023 — Jul 2024",
+    role: "Full Stack Developer (Freelance)",
+    place: "Self-Employed · Cairo, Egypt",
+    note: "Delivered end-to-end web apps with Next.js, React, and .NET Core. Integrated third-party REST APIs for payments, auth, and mapping. Containerized legacy services with Docker.",
   },
 ];
 
 const capabilities = [
-  "EHR / EMR Systems",
-  "Telemedicine",
-  "Appointment Booking",
-  "Patient Portals",
-  "Medical Billing",
-  "Pharmacy & Inventory",
-  "HL7 / FHIR",
-  "HIPAA & GDPR",
+  ".NET 8 / Core",
+  "ASP.NET Web API",
+  "Microservices",
+  "Clean Architecture",
+  "SignalR / gRPC",
+  "DDD",
+  "Angular",
+  "React / Next.js",
+  "TypeScript",
+  "SQL Server",
+  "PostgreSQL",
+  "Redis",
+  "Azure DevOps",
+  "Docker / Kubernetes",
 ];
 
 export function About() {
@@ -45,19 +39,19 @@ export function About() {
             About me
           </p>
           <h2 className="mt-4 font-display text-3xl leading-tight font-extrabold sm:text-4xl">
-            Engineering trust into every line of care.
+            Engineering scalable systems from frontend to cloud.
           </h2>
           <div className="mt-6 space-y-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
             <p>
-              I&apos;m a full-stack developer with deep specialization in healthcare and clinic
-              management systems. Over the past seven years I&apos;ve built HIPAA-compliant EHR
-              platforms, telemedicine products, smart appointment systems, and pharmacy &amp;
-              inventory tooling used by hundreds of clinicians every day.
+              I&apos;m Mostafa Samir, a Senior Full-Stack Engineer with 4+ years of experience
+              designing high-performance microservices and modern web architectures. I specialize in
+              .NET 8, ASP.NET Core Web API, Angular, React, and Next.js.
             </p>
             <p>
-              My focus is the intersection of clinical workflow, security, and delightful UX. I work
-              closely with doctors, administrators, and compliance teams to turn complex regulations
-              into products that feel effortless to use — without ever compromising patient data.
+              My work spans enterprise marketplace backends, real-time IoT dashboards, multi-tenant
+              CRM/ERP integrations, and cloud-native DevOps pipelines. I focus on clean code,
+              scalable architecture, and measurable performance gains — including a 300% database
+              throughput optimization on a recent platform.
             </p>
           </div>
 

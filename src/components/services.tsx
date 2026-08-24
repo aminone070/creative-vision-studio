@@ -1,10 +1,10 @@
 import { services } from "@/data/projects";
 
 const steps = [
-  { step: "01", title: "Brief & research", note: "Goals, audience, references, and the metaphor." },
-  { step: "02", title: "Concepts", note: "Three thumbnail directions, one recommendation." },
-  { step: "03", title: "Production", note: "Illustration, animation, or identity build-out." },
-  { step: "04", title: "Handoff", note: "Master files, applications, and usage notes." },
+  { step: "01", title: "Discovery", note: "Understand goals, constraints, and existing architecture." },
+  { step: "02", title: "Architecture", note: "Design microservices, APIs, and data models with Clean Architecture." },
+  { step: "03", title: "Development", note: "Build backend services, frontend apps, and real-time integrations." },
+  { step: "04", title: "Delivery", note: "CI/CD pipelines, containerization, monitoring, and handoff." },
 ];
 
 export function Services() {
@@ -32,7 +32,7 @@ export function Services() {
 
         <div className="slide-card px-6 py-9 sm:px-10">
           <p className="text-xs font-semibold tracking-[0.2em] text-brand-orange uppercase">
-            How we work
+            How I work
           </p>
           <ol className="mt-7 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {steps.map((item) => (

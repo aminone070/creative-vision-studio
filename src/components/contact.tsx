@@ -1,7 +1,7 @@
 const facts = [
-  { label: "Email", value: "hello@drcode.health" },
-  { label: "Location", value: "Remote · Worldwide" },
-  { label: "Working style", value: "NDA-friendly · HIPAA-aware" },
+  { label: "Email", value: "m.ssaid356@gmail.com" },
+  { label: "Location", value: "Tanta, Egypt · Remote" },
+  { label: "Working style", value: "Freelance & full-time" },
 ];
 
 export function Contact() {
@@ -13,25 +13,27 @@ export function Contact() {
             Get in touch
           </p>
           <h2 className="mx-auto mt-5 max-w-2xl font-display text-4xl leading-[1.05] font-extrabold sm:text-5xl">
-            Let&apos;s build something your patients trust.
+            Let&apos;s build something scalable together.
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-muted-foreground sm:text-base">
-            Tell me about your clinic, hospital, or healthtech idea. I respond to every inquiry
-            within one business day.
+            Whether it&apos;s a microservices platform, a modern frontend, or a full-stack product,
+            I&apos;m ready to help. I respond to every inquiry within one business day.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
             <a
-              href="mailto:hello@drcode.health"
+              href="mailto:m.ssaid356@gmail.com"
               className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5"
             >
-              hello@drcode.health
+              m.ssaid356@gmail.com
             </a>
             <a
-              href="#work"
+              href="https://linkedin.com/in/mostafasamirsaid"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-7 py-3.5 text-sm font-semibold transition-colors hover:bg-secondary"
             >
-              See healthcare projects
+              LinkedIn
             </a>
           </div>
 
@@ -48,8 +50,8 @@ export function Contact() {
         </div>
 
         <footer className="flex flex-col items-center justify-between gap-2 px-2 py-6 text-xs text-muted-foreground sm:flex-row">
-          <p>© 2026 Healthcare Full-Stack Developer Portfolio.</p>
-          <p>HIPAA-compliant clinic, EHR &amp; telemedicine engineering</p>
+          <p>© 2026 Mostafa Samir · Senior Full-Stack Engineer.</p>
+          <p>.NET · Angular · React · Next.js · Cloud</p>
         </footer>
       </div>
     </section>

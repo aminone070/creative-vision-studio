@@ -2,20 +2,20 @@ import ehr from "@/assets/work-ehr.jpg";
 import { concepts } from "@/data/projects";
 
 const skillGroups = [
-  { title: "Frontend", items: ["React 19", "TypeScript", "Tailwind CSS", "Framer Motion", "Next.js"] },
-  { title: "Backend", items: ["Node.js", "NestJS", "Express", ".NET", "REST & GraphQL"] },
-  { title: "Databases", items: ["PostgreSQL", "MongoDB", "Redis", "SQL Server"] },
+  { title: "Backend", items: [".NET 8", "C#", "ASP.NET Core", "Microservices", "Clean Architecture", "DDD"] },
+  { title: "Frontend", items: ["Angular", "React", "Next.js", "TypeScript", "Redux", "Tailwind CSS"] },
+  { title: "Databases", items: ["SQL Server", "PostgreSQL", "Redis", "MongoDB", "Entity Framework"] },
   {
-    title: "Security & Compliance",
-    items: ["HIPAA", "GDPR", "End-to-end Encryption", "Role-Based Access", "Audit Logging"],
+    title: "Real-Time & APIs",
+    items: ["SignalR", "gRPC", "REST APIs", "WebSockets", "OAuth 2.0", "JWT"],
   },
   {
-    title: "Cloud & Realtime",
-    items: ["AWS", "Azure", "WebSockets / WebRTC", "Docker", "CI/CD", "React Native"],
+    title: "DevOps & Cloud",
+    items: ["Azure DevOps", "Docker", "Kubernetes", "CI/CD", "Git", "TFS"],
   },
   {
-    title: "Healthcare Domain",
-    items: ["EHR / EMR", "Telemedicine", "Patient Portals", "Medical Billing", "HL7 / FHIR"],
+    title: "Quality & Security",
+    items: ["TDD", "RBAC", "Playwright", "Cypress", "SSRS", "Microservices Security"],
   },
 ];
 
@@ -30,11 +30,11 @@ export function Breakdown() {
                 Skills &amp; expertise
               </p>
               <h2 className="mt-4 font-display text-3xl leading-tight font-extrabold sm:text-4xl">
-                A stack built for clinical-grade software.
+                A stack built for enterprise-grade software.
               </h2>
               <p className="mt-5 max-w-md text-sm leading-relaxed text-muted-foreground">
-                From real-time telemedicine to multi-tenant EHR platforms — every layer hardened for
-                security, compliance, and uptime.
+                From .NET microservices to Angular and Next.js frontends — every layer designed for
+                scalability, security, and maintainability.
               </p>
 
               <div className="mt-8 grid gap-3 sm:grid-cols-2">
@@ -60,14 +60,14 @@ export function Breakdown() {
               <div className="overflow-hidden rounded-[1.5rem] bg-secondary p-4">
                 <img
                   src={ehr}
-                  alt="Reference architecture of an interoperable EHR platform"
+                  alt="Reference architecture of a microservices-based enterprise platform"
                   width={1408}
                   height={912}
                   loading="lazy"
                   className="w-full rounded-xl shadow-[var(--shadow-lift)]"
                 />
                 <p className="mt-4 text-xs font-semibold tracking-[0.14em] text-muted-foreground uppercase">
-                  Reference architecture · HL7 / FHIR gateway
+                  Reference architecture · .NET microservices & API gateway
                 </p>
               </div>
 

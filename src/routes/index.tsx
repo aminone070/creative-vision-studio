@@ -10,9 +10,9 @@ import { Services } from "@/components/services";
 import { SiteNav } from "@/components/site-nav";
 import { projects } from "@/data/projects";
 
-const title = "Mostafa Samir — Senior Full-Stack Engineer";
+const title = "Mostafa Samir — Healthcare Full-Stack Engineer";
 const description =
-  "Senior Full-Stack Engineer specializing in .NET 8 microservices, Angular, React, Next.js, and cloud-native architectures. Based in Tanta, Egypt. Available for full-stack and microservices projects.";
+  "Healthcare full-stack engineer building EHR platforms, HL7/FHIR interoperability, telehealth, and patient portals with .NET 8, Angular, React, and Next.js. Based in Tanta, Egypt.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -49,8 +49,8 @@ function Index() {
                   </h2>
                 </div>
                 <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">
-                  Marketplace engines, real-time IoT dashboards, CRM/ERP sync, and high-performance
-                  web experiences.
+                  EHR platforms, telehealth and remote monitoring, HL7/FHIR interoperability, and
+                  patient-facing portals.
                 </p>
               </div>
             </Reveal>

@@ -2,20 +2,24 @@ import ehr from "@/assets/work-ehr.jpg";
 import { concepts } from "@/data/projects";
 
 const skillGroups = [
-  { title: "Backend", items: [".NET 8", "C#", "ASP.NET Core", "Microservices", "Clean Architecture", "DDD"] },
+  { title: "Clinical Backend", items: [".NET 8", "C#", "ASP.NET Core", "Microservices", "Clean Architecture", "DDD"] },
   { title: "Frontend", items: ["Angular", "React", "Next.js", "TypeScript", "Redux", "Tailwind CSS"] },
-  { title: "Databases", items: ["SQL Server", "PostgreSQL", "Redis", "MongoDB", "Entity Framework"] },
+  { title: "Health Data", items: ["HL7 FHIR R4", "HL7 v2", "DICOM", "ICD-10", "SNOMED CT", "LOINC"] },
   {
-    title: "Real-Time & APIs",
-    items: ["SignalR", "gRPC", "REST APIs", "WebSockets", "OAuth 2.0", "JWT"],
+    title: "Databases & APIs",
+    items: ["SQL Server", "PostgreSQL", "Redis", "REST APIs", "SMART on FHIR", "JWT"],
+  },
+  {
+    title: "Telehealth & Real-Time",
+    items: ["SignalR", "WebRTC", "RPM Devices", "WebSockets", "Alerting", "gRPC"],
   },
   {
     title: "DevOps & Cloud",
-    items: ["Azure DevOps", "Docker", "Kubernetes", "CI/CD", "Git", "TFS"],
+    items: ["Azure Health Data", "Azure DevOps", "Docker", "Kubernetes", "CI/CD", "Git"],
   },
   {
-    title: "Quality & Security",
-    items: ["TDD", "RBAC", "Playwright", "Cypress", "SSRS", "Microservices Security"],
+    title: "Compliance & Quality",
+    items: ["HIPAA", "GDPR", "PHI Encryption", "Audit Logging", "RBAC", "TDD"],
   },
 ];
 
@@ -30,11 +34,11 @@ export function Breakdown() {
                 Skills &amp; expertise
               </p>
               <h2 className="mt-4 font-display text-3xl leading-tight font-extrabold sm:text-4xl">
-                A stack built for enterprise-grade software.
+                A stack built for regulated healthcare software.
               </h2>
               <p className="mt-5 max-w-md text-sm leading-relaxed text-muted-foreground">
-                From .NET microservices to Angular and Next.js frontends — every layer designed for
-                scalability, security, and maintainability.
+                From FHIR-native .NET services to accessible patient-facing frontends — every
+                layer designed for PHI security, interoperability, and clinical reliability.
               </p>
 
               <div className="mt-8 grid gap-3 sm:grid-cols-2">
@@ -60,14 +64,14 @@ export function Breakdown() {
               <div className="overflow-hidden rounded-[1.5rem] bg-secondary p-4">
                 <img
                   src={ehr}
-                  alt="Reference architecture of a microservices-based enterprise platform"
+                  alt="Reference architecture of a FHIR-based healthcare platform"
                   width={1408}
                   height={912}
                   loading="lazy"
                   className="w-full rounded-xl shadow-[var(--shadow-lift)]"
                 />
                 <p className="mt-4 text-xs font-semibold tracking-[0.14em] text-muted-foreground uppercase">
-                  Reference architecture · .NET microservices & API gateway
+                  Reference architecture · FHIR services & clinical API gateway
                 </p>
               </div>
 

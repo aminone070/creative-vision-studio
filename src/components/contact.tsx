@@ -1,7 +1,7 @@
 const facts = [
   { label: "Email", value: "m.ssaid356@gmail.com" },
   { label: "Location", value: "Tanta, Egypt · Remote" },
-  { label: "Working style", value: "Freelance & full-time" },
+  { label: "Focus", value: "Healthcare & health tech" },
 ];
 
 export function Contact() {
@@ -13,11 +13,12 @@ export function Contact() {
             Get in touch
           </p>
           <h2 className="mx-auto mt-5 max-w-2xl font-display text-4xl leading-[1.05] font-extrabold sm:text-5xl">
-            Let&apos;s build something scalable together.
+            Let&apos;s build better healthcare software.
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-muted-foreground sm:text-base">
-            Whether it&apos;s a microservices platform, a modern frontend, or a full-stack product,
-            I&apos;m ready to help. I respond to every inquiry within one business day.
+            Whether it&apos;s an EHR module, a FHIR integration, a telehealth product, or a
+            patient portal, I&apos;m ready to help. I respond to every inquiry within one business
+            day.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
@@ -50,8 +51,8 @@ export function Contact() {
         </div>
 
         <footer className="flex flex-col items-center justify-between gap-2 px-2 py-6 text-xs text-muted-foreground sm:flex-row">
-          <p>© 2026 Mostafa Samir · Senior Full-Stack Engineer.</p>
-          <p>.NET · Angular · React · Next.js · Cloud</p>
+          <p>© 2026 Mostafa Samir · Healthcare Full-Stack Engineer.</p>
+          <p>EHR · HL7 FHIR · Telehealth · Cloud</p>
         </footer>
       </div>
     </section>

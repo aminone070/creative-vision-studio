@@ -139,6 +139,11 @@
   --destructive: #e05a5a;
 
   --border: #22303c;
+  --border-strong: #334554;
+  --elevated: #18232d;
+  --primary-soft: #6fd3e8;
+  --glow: color-mix(in srgb, #2a9ebd 55%, transparent);
+  --gradient-cta: linear-gradient(100deg, #2a9ebd, #6fd3e8);
   --input: #22303c;
   --ring: #2a9ebd;
 

@@ -90,6 +90,11 @@
   --destructive-foreground: #ffffff;
 
   --border: #dde3ea;
+  --border-strong: #c3ccd7;
+  --elevated: #edf1f6;
+  --primary-soft: #2a9ebd;
+  --glow: color-mix(in srgb, #167d9a 45%, transparent);
+  --gradient-cta: linear-gradient(100deg, #102a43, #167d9a);
   --input: #dde3ea;
   --ring: #167d9a;
 

@@ -1,12 +1,12 @@
-# Creative Vision Studio
+# All Things Done
 
-clone this repo + run https://github.com/mabroukoffers/creative-vision-studio
+do all from have
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/a572ea05-47e3-4f1e-ad79-7a7ab545307a).
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/f2e484bd-a284-4033-9aa8-bbd1c1903a4a).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
 - **Stay in sync**: every change made in Lovable is committed straight to this repository.

@@ -164,7 +164,7 @@
   }
 }
 
-@layer components {
+@layer utilities {
   .glass-card {
     @apply border border-border/50 bg-card/80 shadow-lg backdrop-blur-xl;
   }

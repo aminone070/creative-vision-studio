@@ -170,7 +170,7 @@
   }
 
   .stat-card {
-    @apply glass-card rounded-xl p-6 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-xl;
+    @apply border border-border/50 bg-card/80 shadow-lg backdrop-blur-xl rounded-xl p-6 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-xl;
   }
 
   .sidebar-item {
